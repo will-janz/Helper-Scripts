@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #####
 # Quick sshfs mounting script
 # 
@@ -7,8 +9,8 @@
 # Example: "server": "user@192.168.0.55:/"
 #
 # Usage:
-# Mounting: python rmount.py propertyName
-# Unmounting: python rmount.py -u propertyName
+# Mounting: rmount.py propertyName
+# Unmounting: rmount.py -u propertyName
 # Note that when attempting to unmount the script will not check
 # if the target is a valid property.
 #####
